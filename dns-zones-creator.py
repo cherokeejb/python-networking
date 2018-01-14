@@ -1,6 +1,7 @@
 #!/usr/bin/pythonimport
 
 #This imports the data listed in a csv file, and correcctly formats it ready for the forward and reverse zone files.
+#   #This was inspried by Mike O'Leary in the book "Cyber Operations..." and the script is basically his with minor mods and notes by myself, but was worth learning
 
 #   #Pay especially to the reverse naming syntax for the reverse files, essentially is the address backwards followed by '.in-addr.arpa.' including the trailing period
     #Zone files can be named as desired, but as outlined in your named.conf file, created in the BIND install
